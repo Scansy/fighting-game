@@ -1,0 +1,3 @@
+/home/scansy/Documents/Projects/fighting-game/cmake-build-debug/CMakeFiles/fighting_game.dir
+/home/scansy/Documents/Projects/fighting-game/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/scansy/Documents/Projects/fighting-game/cmake-build-debug/CMakeFiles/rebuild_cache.dir

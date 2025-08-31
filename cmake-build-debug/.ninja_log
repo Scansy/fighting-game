@@ -1,0 +1,9 @@
+# ninja log v6
+263	308	1756488747022243900	fighting_game	c23867a1904ffdc0
+1	263	1756488746760241648	CMakeFiles/fighting_game.dir/main.cpp.o	d71375bd7a0faeb2
+2	31	1756612948306460389	build.ninja	2b1da410c5af2b10
+2	31	1756612948306460389	/home/scansy/Documents/Projects/fighting-game/cmake-build-debug/cmake_install.cmake	2b1da410c5af2b10
+1	465	1756612948313460449	CMakeFiles/fighting_game.dir/main.cpp.o	d71375bd7a0faeb2
+465	514	1756612948777464454	fighting_game	f4e69b84be8c945f
+2	423	1756617364226437181	CMakeFiles/fighting_game.dir/main.cpp.o	d71375bd7a0faeb2
+423	480	1756617364647441263	fighting_game	f4e69b84be8c945f
