@@ -9,7 +9,7 @@
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
 					{
-						"string" : "4.0"
+						"string" : "3.28"
 					},
 					"projectIndex" : 0,
 					"source" : ".",
@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "fighting_game::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-fighting_game-Debug-db775e6a7d749ee560ff.json",
+					"jsonFile" : "target-fighting_game-Debug-6c10888dc3879a7ee0e2.json",
 					"name" : "fighting_game",
 					"projectIndex" : 0
 				}
