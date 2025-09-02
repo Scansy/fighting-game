@@ -57,6 +57,22 @@ build CMakeFiles/fighting_game.dir/src/main.cpp.o: CXX_COMPILER__fighting_game_u
   OBJECT_DIR = CMakeFiles/fighting_game.dir
   OBJECT_FILE_DIR = CMakeFiles/fighting_game.dir/src
 
+build CMakeFiles/fighting_game.dir/src/Player.cpp.o: CXX_COMPILER__fighting_game_unscanned_Debug /home/scansy/Documents/Projects/fighting-game/src/Player.cpp || cmake_object_order_depends_target_fighting_game
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/fighting_game.dir/src/Player.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/scansy/Documents/Projects/fighting-game/include
+  OBJECT_DIR = CMakeFiles/fighting_game.dir
+  OBJECT_FILE_DIR = CMakeFiles/fighting_game.dir/src
+
+build CMakeFiles/fighting_game.dir/src/GameManager.cpp.o: CXX_COMPILER__fighting_game_unscanned_Debug /home/scansy/Documents/Projects/fighting-game/src/GameManager.cpp || cmake_object_order_depends_target_fighting_game
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles/fighting_game.dir/src/GameManager.cpp.o.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I/home/scansy/Documents/Projects/fighting-game/include
+  OBJECT_DIR = CMakeFiles/fighting_game.dir
+  OBJECT_FILE_DIR = CMakeFiles/fighting_game.dir/src
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target fighting_game
@@ -65,7 +81,7 @@ build CMakeFiles/fighting_game.dir/src/main.cpp.o: CXX_COMPILER__fighting_game_u
 #############################################
 # Link the executable fighting_game
 
-build fighting_game: CXX_EXECUTABLE_LINKER__fighting_game_Debug CMakeFiles/fighting_game.dir/src/main.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
+build fighting_game: CXX_EXECUTABLE_LINKER__fighting_game_Debug CMakeFiles/fighting_game.dir/src/main.cpp.o CMakeFiles/fighting_game.dir/src/Player.cpp.o CMakeFiles/fighting_game.dir/src/GameManager.cpp.o | /usr/lib/x86_64-linux-gnu/libsfml-graphics.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-window.so.2.6.1 /usr/lib/x86_64-linux-gnu/libsfml-system.so.2.6.1
   CONFIG = Debug
   DEP_FILE = CMakeFiles/fighting_game.dir/link.d
   FLAGS = -g

@@ -9,7 +9,13 @@ include_directories(${CMAKE_SOURCE_DIR}/include)
 file(GLOB SOURCES ${CMAKE_SOURCE_DIR}/src/*.cpp)
 
 add_executable(fighting_game src/main.cpp
-        include/player.h)
+        include/Player.h
+        include/Stage.h
+        include/GameManager.h
+        include/PlayerConfig.h
+        src/Player.cpp
+        src/GameManager.cpp
+)
 
 target_link_libraries(fighting_game PRIVATE sfml-graphics sfml-window sfml-system)
 
